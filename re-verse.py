@@ -8,3 +8,5 @@ timeEls = soup.find_all(class_="mb5 ind1")[:4]
 
 for timeEl in timeEls:
     print(timeEl.text)
+
+input("Press enter to exit...")
